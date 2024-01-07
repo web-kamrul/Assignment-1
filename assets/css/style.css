@@ -132,7 +132,7 @@ button {
     width: 500px;
 }
 .web-banner .banner-content {
-    background-image: url('/assets/images/hero-banner.png');
+    background-image: url('assets/images/hero-banner.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;

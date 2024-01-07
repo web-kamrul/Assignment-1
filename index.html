@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- html meta field -->
+    <meta name="description" content="This is a Simple Landing Page for First Assignment">
+    <meta name="keywords" content="Webkamrul,Portfolio Website,Frot-End Developer, Backed-Developer, Full Stack Developer, Landing Page">
+    <!-- website title -->
+    <title>Simple Landing Page</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- bottstrap css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header Area Start -->
+    <section class="safe-web-hero">
+        <div class="container">
+            <div class="header-desktop">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                    <a class="navbar-brand" href="#">Kamrul Islam<span></span> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item active "><a class="nav-link" href="#web-age-section-id"><i class="fa-solid fa-house"></i> Home </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#web-age-section-id"><i class="fa-brands fa-servicestack"></i> Services </a></li>
+                            <li class="nav-item"><a class="nav-link" href="#web-age-section-id"><i class="fa-solid fa-user"></i> Check Your Age </a></li>
+                        </ul>
+                        <div class="webkamrul-btn"><a href="#web-age-section-id">Are You 18+?</a></div>
+                    </div>
+                    </div>
+                </nav>
+                </div>
+                </header>
+        </div>
+    </section>
+    <!-- Header Area End -->
+
+    <!-- Banner Arear Start -->
+    <div class="web-banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-content-inner">
+                    <h1>Explore the Quantum Realm</h1>
+                    <p>WEmbark on a mind-bending journey through the wonders of quantum physics. Unravel the mysteries of subatomic particles and discover the fascinating principles that govern the smallest scales of our universe. Get ready to expand your understanding of reality!</p>
+                    <div class="webkamrul-btn"><a href="">I am Here</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner Arear End -->
+
+    <!-- Age Checking Start -->
+    <div class="container">
+        <div class="age-checker" id="web-age-section-id">
+            <label for="ageInput">Enter Your Age</label>
+            <input type="number" id="ageInput" min="0" required class="w-100 form-control" placeholder="Enter Your Age">
+            <button type="button" onclick="checkAge()" class="w-100 mt-3 p-2 bg-success text-white">CHECK AGE NOW</button>
+        </div>
+        <div class="child-section" id="childSection">
+            <h2 class="mt-5">You Are Child</h2>
+            <div class="card">
+                <img src="assets/images/cheild.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">You Are Not Safe</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go Home</a>
+                </div>
+            </div>
+        </div>
+        <div class="adult-section" id="adultSection">
+            <h2 class="mt-5">You Are Adult</h2>
+            <div class="card">
+                <img src="assets/images/adult.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">You Are Safe</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">See Now Video</a>
+                </div>
+            </div>
+        </div>
+    <!-- Age Checking End -->
+
+    <!-- Services Area Start -->
+    <div class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/01hero.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Best Product</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/02hero.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Trusted Brand</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="assets/images/03hero.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Variation</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Area End -->
+
+    <!-- Footer Area Start -->
+    <div class="web-footer">
+        <div class="container">
+            <h3>Kamrul Islam</h3>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Check Age</a></li>
+            </ul>
+            <ul class="footer-icon">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Footer Area End -->
+
+    <!-- Copyright Start -->
+    <div class="copyright bg-dark">
+            <p class="text-center text-white p-2">All Right Reserved by Web Kamrul</p>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+
+<!-- own javascript -->
+<script src="assets/js/script.js"></script>
+<!-- bottstrap js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

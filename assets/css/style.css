@@ -1,0 +1,218 @@
+
+/* 
+=====================
+Global CSS Start 
+=====================
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --webkamrul-assignment-theme-color: #7543e3;
+    --webkamrul-assignment-theme-color-white: #fff;
+    --webkamrul-assignment-theme-color-black: #333;
+}
+button {
+    outline: none;
+}
+/* global button */
+.webkamrul-btn a {
+    background: var(--webkamrul-assignment-theme-color);
+    padding: 12px 30px;
+    color: #fff;
+    border: 1px solid var(--webkamrul-assignment-theme-color) ;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.webkamrul-btn a:hover {
+    border: 1px solid var(--webkamrul-assignment-theme-color-white);
+    background: transparent;
+    color: var(--webkamrul-assignment-theme-color-white);
+}
+/* Global Element */
+h1 {
+    font-family: poppins;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+}
+/* Header Area Start */
+button {
+    background: var(--webkamrul-assignment-theme-color);
+}
+.nav-item a {
+    margin: 0 15px;
+}
+.nav-item a:hover {
+    color: var(--webkamrul-assignment-theme-color);
+}
+@media only screen and (max-width: 1000px) {
+    .nav-item a {
+        margin: 0 ;
+    }
+  }
+
+.safe-web-hero {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 15px 0;
+}
+.safe-web-hero .webkamrul-btn a:hover {
+    border: 1px solid var(--webkamrul-assignment-theme-color);
+    color: var(--webkamrul-assignment-theme-color);
+}
+.safe-web-hero button {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+/* Header Area End */
+.age-checker {
+    width: 400px;
+    margin: 0 auto;
+}
+.age-checker label {
+    display: inline-block;
+    TEXT-ALIGN: CENTER;
+    DISPLAY: BLOCK;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.child-section,
+.adult-section {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1200px) {
+    .age-checker {
+        width: 100%;
+    }
+    .child-section,
+    .adult-section {
+        width: 100%;
+}
+
+  }
+.web-banner {
+    padding: 60px 0;
+    position: relative;
+    text-align: center;
+    background: transparent radial-gradient(closest-side at 57% 45%,#c588ff 0%,#ac71ff 27%,#9059ff 59%,#7543e3 90%,#582acb 190%) 0% 0% no-repeat padding-box;
+}
+@media only screen and (max-width: 1200px) {
+    .web-banner {
+        padding: 20px 0;
+    }
+  }
+.web-banner img {
+    z-index: 1;
+    width: 500px;
+}
+.web-banner .banner-content {
+    background-image: url('/assets/images/hero-banner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    margin: 0 auto;
+    padding: 180px 0;
+    z-index: 100;
+}
+@media only screen and (max-width: 1200px) {
+    .web-banner .banner-content {
+        width: 100%;
+        padding: 20px 0;
+    }
+  }
+.banner-content-inner {
+    border: 2px double #e5e5e53b;
+    color: white;
+    background: #33333318;
+    backdrop-filter:blur(3px);
+    padding: 70px 30px;
+}
+
+/* Age Checker */
+.age-checker {
+    margin-top: 40px;
+}
+
+.child-section, 
+.adult-section {
+            display: none;
+}
+.services {
+    padding: 80px 0;
+}
+.services .card {
+    margin: 10px 0;
+}
+
+.web-footer {
+    padding: 40px 0;
+    text-align: center;
+    background: var(--webkamrul-assignment-theme-color);
+    color: var(--webkamrul-assignment-theme-color-white);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.web-footer ul li a {
+    color: var(--webkamrul-assignment-theme-color-white);
+}
+.web-footer .footer-links a {
+    margin: 0px 10px;
+}
+.web-footer .footer-icon {
+    margin-top: 20px;
+}
+.web-footer .footer-icon a {
+    background: white;
+    color: var(--webkamrul-assignment-theme-color);
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    font-size: 20px;
+    border: 1px solid var(--webkamrul-assignment-theme-color);
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.web-footer .footer-icon a:hover {
+    background: transparent;
+    color: var(--webkamrul-assignment-theme-color-white);
+    border: 1px solid var(--webkamrul-assignment-theme-color-white);
+}
